@@ -1,5 +1,5 @@
-**
- * Created by charles on 09/01/2017.
+/**
+ * Created by Pierre-LouisTALBOT on 09/01/2017.
  */
 
 /**
@@ -12,7 +12,7 @@ const server = require('http').createServer(app);
  * Express Route configuration
  */
 app.get('/', function (req, res, next) {
-    res.sendFile(__dirname + 'index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 /**
