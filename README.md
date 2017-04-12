@@ -1,6 +1,6 @@
-# conquest server
+# Download website
 
-> Server for the game conquest
+> Website used to download files for a personnal project
 
 ## Run setup
 
