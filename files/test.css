@@ -1,13 +1,13 @@
 @media print {
-    html {
+/*    html {
         display: none;
-    }
-
-/*    .sk-article-content {
-        display: block;
     }
 */
-    .sk-globalmenu, .sk-article-header, .fc-search, .fc-tools, .sk-whychoose, .sk-bottom {
+    .sk-article-content {
         display: none;
     }
+/*
+    .sk-globalmenu, .sk-article-header, .fc-search, .fc-tools, .sk-whychoose, .sk-bottom {
+        display: none;
+    }*/
 }
