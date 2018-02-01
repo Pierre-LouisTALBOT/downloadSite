@@ -3,7 +3,9 @@ var vprint;
 
 function changeStyleSheet(sheet) {
     document.getElementById('feuilleStyle').setAttribute('href', sheet);
+	console.log("changeStyleSheet");
     if (changeStyle != null) {
+		console.log("changeStyleSheet test ok");
         clearTimeout(changeStyle);
         changeStyle = null;
     }
@@ -20,7 +22,9 @@ function articleToPdf2() {
 
 function printWindow() {
     window.print();
+	console.log("printWindow");
     if (vprint != null) {
+		console.log("printWindow test ok");
         clearTimeout(vprint);
         vprint = null;
     }
