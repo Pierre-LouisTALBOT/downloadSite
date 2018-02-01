@@ -1,19 +1,14 @@
 function changeStyleSheet(sheet) {
-	console.log("changeStyleSheet");
     document.getElementById('feuilleStyle').setAttribute('href', sheet);
 }
 
 function articleToPdf2() {
-    changeStyleSheet("/_layouts/15/skema.internet.2016/site/branding/css/skema-internet-pdf.css");
-    console.log("ok1");
-    setTimeout(function() { 
+	//  /_layouts/15/skema.internet.2016/site/branding/css/skema-internet-pdf.css
+    changeStyleSheet("");
+    setTimeout(function() {
 		window.print();
-		console.log("printWindow");
 	}, 1000);
-    console.log("ok2");
-    setTimeout(function() { 
-		console.log("changeStyleSheet");
+    setTimeout(function() {
 		changeStyleSheet("null");
 	}, 4000);
-    console.log("ok3");
 }
