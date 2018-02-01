@@ -1,8 +1,8 @@
 @media print {
-    html {
+/*    html {
         display: none;
     }
-
+*/
     .sk-article-content {
         display: block;
     }
