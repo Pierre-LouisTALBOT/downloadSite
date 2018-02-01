@@ -3,9 +3,9 @@
         display: none;
     }
 
-    .sk-article-content {
+/*    .sk-article-content {
         display: block; /* affichage des éléments à mettre en PDF */
-    }
+/*    }
 
 /*    .sk-globalmenu, .sk-article-header, .fc-search, .fc-tools, .sk-whychoose, .sk-bottom {
         display: none;
