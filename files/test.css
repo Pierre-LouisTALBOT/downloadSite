@@ -1,7 +1,5 @@
-/*@media print {*/
-    html {
-        display: none;
-    }
+@media print {
+    
 
     body {
         width: auto !important;
@@ -50,4 +48,4 @@
 	a[href]:after {
 		content: " (" attr(href) ")"; /* affichage des URL des liens */
 	}
-/*}*/
+}
