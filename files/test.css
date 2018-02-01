@@ -7,7 +7,7 @@
         display: block; /* affichage des éléments à mettre en PDF */
     }
 
-    .fc-tools {
+    .fc-tools .sk-bottom {
         display: none;
     }
 
