@@ -1,14 +1,6 @@
-var changeStyle;
-var vprint;
-
 function changeStyleSheet(sheet) {
-    document.getElementById('feuilleStyle').setAttribute('href', sheet);
 	console.log("changeStyleSheet");
-    if (changeStyle != null) {
-		console.log("changeStyleSheet test ok");
-        clearTimeout(changeStyle);
-        changeStyle = null;
-    }
+    document.getElementById('feuilleStyle').setAttribute('href', sheet);
 }
 
 function articleToPdf2() {
@@ -21,15 +13,7 @@ function articleToPdf2() {
     console.log("ok2");
     setTimeout(function() { 
 		console.log("changeStyleSheet");
-		document.getElementById('feuilleStyle').setAttribute('href', sheet);
+		changeStyleSheet("null");
 	}, 7000);
     console.log("ok3");
-}
-
-function printWindow() {
-    if (vprint != null) {
-		console.log("printWindow test ok");
-        clearTimeout(vprint);
-        vprint = null;
-    }
 }
