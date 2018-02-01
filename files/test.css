@@ -7,10 +7,10 @@
         display: block; /* affichage des éléments à mettre en PDF */
     }
 
-    .sk-globalmenu, .sk-article-header, .fc-search, .fc-tools, .sk-whychoose, .sk-bottom {
+/*    .sk-globalmenu, .sk-article-header, .fc-search, .fc-tools, .sk-whychoose, .sk-bottom {
         display: none;
     }
-
+*/
 /*    p, blockquote {
         orphans: 3; /* pas de ligne seule en bas */
 /*        widows: 3; /* pas de ligne seule en haut */
