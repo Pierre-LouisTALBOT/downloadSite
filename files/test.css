@@ -1,4 +1,4 @@
-@media print {
+/*@media print {*/
     html {
         display: none;
     }
@@ -50,4 +50,4 @@
 	a[href]:after {
 		content: " (" attr(href) ")"; /* affichage des URL des liens */
 	}
-}
+/*}*/
