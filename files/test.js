@@ -9,11 +9,11 @@ function articleToPdf2() {
     setTimeout(function() { 
 		window.print();
 		console.log("printWindow");
-	}, 2000);
+	}, 1000);
     console.log("ok2");
     setTimeout(function() { 
 		console.log("changeStyleSheet");
 		changeStyleSheet("null");
-	}, 7000);
+	}, 4000);
     console.log("ok3");
 }
