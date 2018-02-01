@@ -13,7 +13,7 @@
 
 /*    p, blockquote {
         orphans: 3; /* pas de ligne seule en bas */
-        widows: 3; /* pas de ligne seule en haut */
+/*        widows: 3; /* pas de ligne seule en haut */
 /*    }
 /*
     blockquote, ul, ol {
