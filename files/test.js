@@ -4,7 +4,7 @@ function changeStyleSheet(sheet) {
 
 function articleToPdf2() {
     //  /_layouts/15/skema.internet.2016/site/branding/css/skema-internet-pdf.css
-    changeStyleSheet("https://rawgit.com/Pierre-LouisTALBOT/downloadSite/master/files/test.css");
+    changeStyleSheet("https://cdn.jsdelivr.net/gh/Pierre-LouisTALBOT/downloadSite@master/files/test.css");
     setTimeout(function () {
         window.print();
     }, 1000);
